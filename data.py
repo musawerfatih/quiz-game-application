@@ -1,5 +1,8 @@
 # import requests
 
+# Uncomment below section to get General questions for quiz online from website through API
+
+# --------------------------------- GENERAL CATEGORY QUESTIONS --------------------------------- #
 # parameters = {
 #     "amount":10,
 #     "type":"boolean",
@@ -10,10 +13,13 @@
 
 # data = response.json()
 # question_data = data["results"]
+# ----------------------------------------------------------------------------------------------- #
 
 
-# --------------------------------- GENERAL QATEGORY QUESTIONS --------------------------------- #
 
+# Uncomment below section for Computer related questions for quiz offline from json format data
+
+# --------------------------------- COMPUTER SCIENCE QUESTIONS --------------------------------- #
 # question_data = [
 #     {
 #         "category": "Science: Computers",
@@ -116,7 +122,11 @@
 #         ]
 #     }
 # ]
+# ----------------------------------------------------------------------------------------------- #
 
+
+
+# Uncomment below section for more Computer related questions for quiz offline from json format data
 
 # --------------------------------- COMPUTER SCIENCE QUESTIONS --------------------------------- #
 
@@ -197,7 +207,11 @@
 #     "correct_answer": "True",
 #     "incorrect_answers": ["False"]
 # }]
+# ----------------------------------------------------------------------------------------------- #
 
+
+
+# Uncomment below section for English related questions for quiz offline from json format data
 
 # --------------------------------- ENGLISH QUESTIONS --------------------------------- #
 
@@ -241,21 +255,3 @@ question_data = [{
     'Some words that started out as slang have won acceptance as standard English.',
     'correct_answer': 'True'
 }]
-# {
-#     'question':
-#     'Journalists should use clichÃ©s to amuse or interest the reader.',
-#     'correct_answer': 'False'
-# }, {
-#     'question':
-#     'Except in extraordinary circumstances, journalists should remain neutral observers. They should not mention themselves in stories.',
-#     'correct_answer': 'True'
-# }, {
-#     'question':
-#     'Journalists avoid using exclamation points, dashes and parentheses.',
-#     'correct_answer': 'True'
-# }, {
-#     'question':
-#     'Skilled reporters can transform even routine events into front-page stories.',
-#     'correct_answer': 'True'
-# }
-# ]
