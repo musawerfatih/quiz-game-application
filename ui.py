@@ -23,8 +23,8 @@ class QuizInterface():
         self.canvas.grid(column=0, row=1, columnspan=2, pady=30)
 
         # BUTTONS
-        self.true_image = PhotoImage(file="34-Day-quizzler-app-start/images/true.png")
-        self.false_image = PhotoImage(file="34-Day-quizzler-app-start/images/false.png")
+        self.true_image = PhotoImage(file="images/true.png")
+        self.false_image = PhotoImage(file="images/false.png")
         self.true_button = Button(image=self.true_image, highlightthickness=0, command=self.true_pressed)
         self.false_button = Button(image=self.false_image, highlightthickness=0, command=self.false_pressed)
         self.true_button.grid(column=1, row=3, pady=30)
